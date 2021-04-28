@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="flink-cep-scala,flink-examples-batch,flink-examples-streaming,flink-examples-table,flink-hadoop-compatibility,flink-hcatalog,flink-mesos,flink-runtime,flink-scala,flink-table-api-scala,flink-table-api-scala-bridge,flink-table-planner,flink-table-planner-blink,flink-tests,flink-yarn-tests">
+      <parameters>
+        <parameter value="-nobootcp" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="flink-gelly-examples,flink-gelly-scala,flink-scala-shell_2.11,flink-streaming-scala">
+      <parameters>
+        <parameter value="-nobootcp" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+      <plugins>
+        <plugin path="D:\Maven_Repo\org\scalamacros\paradise_2.11.12\2.1.1\paradise_2.11.12-2.1.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
